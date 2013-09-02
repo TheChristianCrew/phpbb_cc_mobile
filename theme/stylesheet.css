@@ -35,6 +35,17 @@ body {
 /**
  * Category and Forum Lists
  */
+.cc_mobile_category {
+	margin-bottom: 10px;
+}
+
+.cc_mobile_category h2 a {
+	color: #ffffff;
+	font-size: 0.9em;
+	font-weight: normal;
+	line-height: 1.6;
+}
+
 .cc_mobile_forum {
 	border-top: 2px solid #2d91c7;
 }
@@ -45,7 +56,7 @@ body {
 	border-left: 1px solid #505050;
 	border-right: 1px solid #505050;
 	display: block;
-	padding: 5px;
+	padding: 10px;
 }
 
 .cc_mobile_forum li a:hover {
